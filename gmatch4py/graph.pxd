@@ -119,4 +119,5 @@ cdef class Graph:
     cpdef dict get_edge_attrs(self,edge_hash)
     cpdef dict get_node_attrs(self, node_hash)
     cpdef dict get_node_attr(self, node_hash)
+    cpdef str get_real_node_attr(self, node)
     cpdef dict get_edge_attr(self,edge_hash)
